@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WZPerson.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    WZPerson * person = [WZPerson new];
+    person.name = @"小明";
+    [person eat];
+    
 }
 
 
@@ -27,3 +32,44 @@
 
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,6 +15,7 @@
 		BE99ECB81EFCEA200053226A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE99ECB61EFCEA200053226A /* LaunchScreen.storyboard */; };
 		BE99ECC31EFCEA200053226A /* myDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99ECC21EFCEA200053226A /* myDemoTests.m */; };
 		BE99ECCE1EFCEA200053226A /* myDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99ECCD1EFCEA200053226A /* myDemoUITests.m */; };
+		BE99ECDE1EFCED360053226A /* WZPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BE99ECDD1EFCED360053226A /* WZPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BE99ECC91EFCEA200053226A /* myDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE99ECCD1EFCEA200053226A /* myDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myDemoUITests.m; sourceTree = "<group>"; };
 		BE99ECCF1EFCEA200053226A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE99ECDC1EFCED360053226A /* WZPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPerson.h; sourceTree = "<group>"; };
+		BE99ECDD1EFCED360053226A /* WZPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		BE99ECDB1EFCEA770053226A /* myFramework */ = {
 			isa = PBXGroup;
 			children = (
+				BE99ECDC1EFCED360053226A /* WZPerson.h */,
+				BE99ECDD1EFCED360053226A /* WZPerson.m */,
 			);
 			path = myFramework;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE99ECB01EFCEA200053226A /* ViewController.m in Sources */,
+				BE99ECDE1EFCED360053226A /* WZPerson.m in Sources */,
 				BE99ECAD1EFCEA200053226A /* AppDelegate.m in Sources */,
 				BE99ECAA1EFCEA200053226A /* main.m in Sources */,
 			);
@@ -379,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
